@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#141c20">
+  <title>Sign in · KCBSA MIS</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/app.js" defer></script>
+  <script src="assets/js/pages.js" defer></script>
+  <script src="assets/js/login.js" defer></script>
+</head>
+<body data-page="login">
+  <main class="login-wrap">
+    <section class="login-card">
+      <div class="brand-mark" aria-hidden="true">K</div>
+      <p class="eyebrow">Kisenyi Central Boda-Boda Stage Association</p>
+      <h1>Stage records, in one place.</h1>
+      <p class="muted">Sign in with your stage account to continue.</p>
+      <div id="notice" class="notice" role="status" aria-live="polite"></div>
+      <form id="login-form" class="stack">
+        <label>Username<input name="username" autocomplete="username" required maxlength="80"></label>
+        <label>Password<input name="password" type="password" autocomplete="current-password" required maxlength="200"></label>
+        <button class="button button-primary button-full" type="submit">Sign in</button>
+      </form>
+      <p class="login-foot">Kisenyi · Kampala · Uganda</p>
+    </section>
+  </main>
+</body>
+</html>
